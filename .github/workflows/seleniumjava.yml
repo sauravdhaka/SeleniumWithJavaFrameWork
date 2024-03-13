@@ -21,11 +21,11 @@ jobs:
       continue-on-error: true
 
     - name: Generate HTML REPORT FROM SUREFIRE_REPORTS
-      run: mvn surefire-report:report
+      run: mvn surefire-report:report-only
       if : always()
     - uses: actions/upload-artifact@main
       with:
         name: HTML-REPORT
-        path: target/site/surefire-report.html
+        path: target/site/
 
   
