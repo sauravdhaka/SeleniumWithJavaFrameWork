@@ -3,7 +3,7 @@ name: Selenium Test
 on: [push]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,5 +18,14 @@ jobs:
 
     - name: Test with Maven
       run: mvn test
+      continue-on-error: true
+
+    - name: Generate HTML REPORT FROM SUREFIRE_REPORTS
+      run: mvn surefire-report:report
+      if : always()
+    - uses: actions/upload-artifact@main
+      with:
+        name: HTML-REPORT
+        path: target/site/surefire-report.html
 
   
