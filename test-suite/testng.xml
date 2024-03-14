@@ -18,7 +18,7 @@
             </class>
         </classes>
     </test> <!-- Test -->
-    <test name="Juice Shop end to End automation tests using chrome browser" enabled="false">
+    <test name="Juice Shop end to End automation tests using chrome browser" enabled="true">
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="tests.e2e.CompleteTest">
