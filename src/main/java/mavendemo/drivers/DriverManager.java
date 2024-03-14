@@ -21,8 +21,6 @@ public final class DriverManager {
     private static final String DISABLE_DEV_SHM = "--disable-dev-shm-usage";
     private static final String CUSTOM_WINDOW_SIZE = "--window-size=1050,600";
     private static final String HEADLESS = "--headless";
-    private static final String LT_ACCESS_TOKEN = System.getProperty("LT_ACCESS_KEY");
-    private static final String LT_USERNAME = System.getProperty("LT_USERNAME");
 
     public static void createDriver(final Browsers browser) {
         switch (browser) {
@@ -46,19 +44,8 @@ public final class DriverManager {
         }
     }
 
-    private static HashMap<String, Object> ltOptions() {
-        final var ltOptions = new HashMap<String, Object>();
-        ltOptions.put("username", LT_USERNAME);
-        ltOptions.put("accessKey", LT_ACCESS_TOKEN);
-        ltOptions.put("resolution", "2560x1440");
-        ltOptions.put("selenium_version", "4.0.0");
-        ltOptions.put("build", "LambdaTest Playground Build");
-        ltOptions.put("name", "LambdaTest Playground Tests");
-        ltOptions.put("acceptInsecureCerts", true);
-        ltOptions.put("w3c", true);
-        ltOptions.put("plugin", "java-testNG");
-        return ltOptions;
-    }
+    
+
 
     private static void setDriver(final WebDriver driver) {
         DriverManager.DRIVER.set(driver);
@@ -79,7 +66,7 @@ public final class DriverManager {
 
     private static void setupChromeDriver() {
         LOG.info("Setting up Chrome Driver...");
-        final var isHeadless = Boolean.parseBoolean(Objects.requireNonNullElse(System.getProperty("headless"), "true"));
+        final var isHeadless = Boolean.parseBoolean(Objects.requireNonNullElse(System.getProperty("headless"), "fasle"));
         final var chromePrefs = new HashMap<String, Object>();
         chromePrefs.put("safebrowsing.enabled", "true");
         chromePrefs.put("download.prompt_for_download", "false");

@@ -1,0 +1,213 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "testRegisterUser",
+    "uid" : "22a85de1779d126e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418727356,
+      "stop" : 1710418746493,
+      "duration" : 19137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "testRegisterUser",
+    "uid" : "5ad38a41d7b6ede1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418727356,
+      "stop" : 1710418746331,
+      "duration" : 18975
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "EDGE" ]
+  }, {
+    "name" : "testLogin",
+    "uid" : "c8a94ea0fbbf3039",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418746424,
+      "stop" : 1710418747554,
+      "duration" : 1130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "EDGE" ]
+  }, {
+    "name" : "testLogin",
+    "uid" : "a97649528eba1982",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418746516,
+      "stop" : 1710418747534,
+      "duration" : 1018
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "testAddProductToCart",
+    "uid" : "834404191dd2e9b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418747548,
+      "stop" : 1710418759025,
+      "duration" : 11477
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "testAddProductToCart",
+    "uid" : "68a09bd895ff2696",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418747563,
+      "stop" : 1710418758800,
+      "duration" : 11237
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "EDGE" ]
+  }, {
+    "name" : "testProductCheckout",
+    "uid" : "22d384f5ca65b426",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418758811,
+      "stop" : 1710418769675,
+      "duration" : 10864
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "EDGE" ]
+  }, {
+    "name" : "testProductCheckout",
+    "uid" : "e1fc285c0ebe77be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418759033,
+      "stop" : 1710418769372,
+      "duration" : 10339
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "testSelectDelivery",
+    "uid" : "bfe5a971fdb40dbb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418769386,
+      "stop" : 1710418775238,
+      "duration" : 5852
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "testSelectDelivery",
+    "uid" : "73da7c39efd0065e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418769689,
+      "stop" : 1710418776126,
+      "duration" : 6437
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "EDGE" ]
+  }, {
+    "name" : "testMakePayment",
+    "uid" : "96f124566cbfb13a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418775249,
+      "stop" : 1710418779678,
+      "duration" : 4429
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "testMakePayment",
+    "uid" : "f3dee5154e413bb4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418776137,
+      "stop" : 1710418779732,
+      "duration" : 3595
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "EDGE" ]
+  }, {
+    "name" : "testOrderSummary",
+    "uid" : "562ab9183f89c116",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418779693,
+      "stop" : 1710418786861,
+      "duration" : 7168
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "testOrderSummary",
+    "uid" : "350198fecab1ea4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418779749,
+      "stop" : 1710418786893,
+      "duration" : 7144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "EDGE" ]
+  }, {
+    "name" : "testOrderConfirmation",
+    "uid" : "e9a7a8fe76957f55",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418786873,
+      "stop" : 1710418787685,
+      "duration" : 812
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "testOrderConfirmation",
+    "uid" : "2a3eb1fcf310f089",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1710418786906,
+      "stop" : 1710418787710,
+      "duration" : 804
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "EDGE" ]
+  } ]
+}

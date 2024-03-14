@@ -1,0 +1,113 @@
+{
+  "uid" : "834404191dd2e9b5",
+  "name" : "testAddProductToCart",
+  "fullName" : "tests.e2e.CompleteTest.testAddProductToCart",
+  "historyId" : "c6db4844bcebd5a4c9fabc9847092d4d",
+  "time" : {
+    "start" : 1710418747548,
+    "stop" : 1710418759025,
+    "duration" : 11477
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTest",
+    "time" : {
+      "start" : 1710418713738,
+      "stop" : 1710418721422,
+      "duration" : 7684
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1710418721423,
+      "stop" : 1710418727195,
+      "duration" : 5772
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1710418787691,
+      "stop" : 1710418788178,
+      "duration" : 487
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.e2e.CompleteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.e2e.CompleteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAddProductToCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Juice shop Website Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Juice Shop end to End automation tests using chrome browser"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.e2e.CompleteTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AB3SBD2"
+  }, {
+    "name" : "thread",
+    "value" : "7728@DESKTOP-AB3SBD2.TestNG-tests-2(31)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "834404191dd2e9b5.json",
+  "parameterValues" : [ "chrome" ]
+}

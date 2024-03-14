@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  seleniumTest:
+    image: seleniumjava
+    command:  >
+      /bin/sh -c "mvn surefire-report:report-only"
+    volumes:
+      - ./DockerReport:/app/target/site/

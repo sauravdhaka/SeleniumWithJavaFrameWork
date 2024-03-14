@@ -1,0 +1,113 @@
+{
+  "uid" : "5ad38a41d7b6ede1",
+  "name" : "testRegisterUser",
+  "fullName" : "tests.e2e.CompleteTest.testRegisterUser",
+  "historyId" : "17cc87b800d7e7945e83f90c6abfd8f",
+  "time" : {
+    "start" : 1710418727356,
+    "stop" : 1710418746331,
+    "duration" : 18975
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTest",
+    "time" : {
+      "start" : 1710418713738,
+      "stop" : 1710418721365,
+      "duration" : 7627
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1710418721378,
+      "stop" : 1710418727202,
+      "duration" : 5824
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1710418787713,
+      "stop" : 1710418789357,
+      "duration" : 1644
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.e2e.CompleteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.e2e.CompleteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegisterUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Juice shop Website Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Juice Shop end to End automation tests using edge browser"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.e2e.CompleteTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AB3SBD2"
+  }, {
+    "name" : "thread",
+    "value" : "7728@DESKTOP-AB3SBD2.TestNG-tests-1(30)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "EDGE"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ad38a41d7b6ede1.json",
+  "parameterValues" : [ "EDGE" ]
+}

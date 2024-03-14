@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Juice shop Website Tests ">
-    <test name="Juice Shop end to End automation tests " enabled="false">
-        <parameter name="browser" value="chrome"/>
+<suite name="Juice shop Website Tests" parallel="tests">
+    <test name="Juice Shop end to End automation tests using edge browser" enabled="true">
+        <parameter name="browser" value="EDGE"/>
         <classes>
             <class name="tests.e2e.CompleteTest">
                 <methods>
@@ -18,7 +18,7 @@
             </class>
         </classes>
     </test> <!-- Test -->
-    <test name="Juice Shop end to End automation tests " enabled="true">
+    <test name="Juice Shop end to End automation tests using chrome browser" enabled="true">
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="tests.e2e.CompleteTest">
@@ -34,6 +34,6 @@
                 </methods>
             </class>
         </classes>
-    </test> <!-- Test -->
+    </test>
 
 </suite> <!-- Suite -->
