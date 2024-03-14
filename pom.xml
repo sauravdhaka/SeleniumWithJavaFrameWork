@@ -37,7 +37,7 @@
         <sonar.java.source>15</sonar.java.source>
         <jacoco.version>0.8.11</jacoco.version>
         <sonarjacocolistener.version>5.14.0.18788</sonarjacocolistener.version>
-        <sonarmavenplugin.version>3.10.0.2594</sonarmavenplugin.version>
+        <sonarmavenplugin.version>3.10.0.2594</sonarmavenplugin.version>  
         <allure.version>2.25.0</allure.version>
     </properties>
     <dependencies>
