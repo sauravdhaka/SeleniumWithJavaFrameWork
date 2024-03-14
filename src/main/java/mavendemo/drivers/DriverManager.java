@@ -66,7 +66,7 @@ public final class DriverManager {
 
     private static void setupChromeDriver() {
         LOG.info("Setting up Chrome Driver...");
-        final var isHeadless = Boolean.parseBoolean(Objects.requireNonNullElse(System.getProperty("headless"), "fasle"));
+        final var isHeadless = Boolean.parseBoolean(Objects.requireNonNullElse(System.getProperty("headless"), "true"));
         final var chromePrefs = new HashMap<String, Object>();
         chromePrefs.put("safebrowsing.enabled", "true");
         chromePrefs.put("download.prompt_for_download", "false");
